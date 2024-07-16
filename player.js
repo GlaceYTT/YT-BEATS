@@ -61,6 +61,7 @@ function initializePlayer(client) {
             })
             .setDescription('🎶 **Controls:**\n 🔁 `Loop`, ❌ `Disable`, ⏭️ `Skip`, 📜 `Queue`, 🗑️ `Clear`\n ⏹️ `Stop`, ⏸️ `Pause`, ▶️ `Resume`, 🔊 `Vol +`, 🔉 `Vol -`')
             .setImage('attachment://musicard.png')
+            .setFooter({ text: `YT BEATS`, iconURL: client.user.displayAvatarURL() })
             .setColor(config.embedColor);
 
         const actionRow1 = createActionRow1(false);
